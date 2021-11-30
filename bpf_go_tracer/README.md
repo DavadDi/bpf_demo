@@ -217,8 +217,8 @@ $ go version
   * Pixie 产品追踪 Go 功能参见 [Dynamic Logging In Go (Alpha)](https://docs.px.dev/tutorials/custom-data/dynamic-go-logging/)
   * 系列文章 [Debugging with eBPF Part 2: Tracing full body HTTP request/responses](https://blog.px.dev/ebpf-http-tracing/) 介绍了追踪 HTTP 使用 kprobe 和 urprobe 的各种利弊和性能对比
   * 站点中 eBPF 相关文档 https://blog.px.dev/ebpf
-* [Tracing Go Functions with eBPF Part 1](https://www.grant.pizza/blog/tracing-go-functions-with-ebpf-part-1/) 作者为 grantseltze，2021 年的 Gopher 分享参见这里 [Tracing Go Programs with eBPF!](Tracing Go Programs with eBPF!)， [YouTube 地址](https://www.youtube.com/watch?v=JxZL6ZEBBEg) GopherCon Europe 2021: Grant Seltzer Richman - Unlocking eBPF from Go
+* [Tracing Go Functions with eBPF Part 1](https://www.grant.pizza/blog/tracing-go-functions-with-ebpf-part-1/) 作者为 grantseltze，2021 年的 Gopher 分享参见这里 [Tracing Go Programs with eBPF!](https://www.grant.pizza/talks/gopherconeu2021/)， [YouTube 地址](https://www.youtube.com/watch?v=JxZL6ZEBBEg) GopherCon Europe 2021: Grant Seltzer Richman - Unlocking eBPF from Go
 * [Tracing Go Functions with eBPF Part 2](http://hushi55.github.io/2021/04/22/ebpf-modify-golang-args)  作者的开源工具 [weaver](https://github.com/grantseltzer/weaver)，博客有不少 eBPF 文章，参见 https://www.grant.pizza/
   * [Youtube: GopherCon 2020: Grant Seltzer Richman - Tracing Go Programs with eBPF!](https://www.youtube.com/watch?v=OxLmd7szevI)
-* YouTube [Tracing Go with eBPF / Florian Lehner @ GDG Berlin Golang 06/2021](https://www.youtube.com/watch?v=f1jr9nR25EA)   ✅ 有 eBPF 背景介绍和 Go 跟踪的各个方面包括函数堆栈等；
+* YouTube [Tracing Go with eBPF / Florian Lehner @ GDG Berlin Golang 06/2021](https://www.youtube.com/watch?v=f1jr9nR25EA)   ✅ 有 eBPF 背景介绍和 Go 跟踪的各个方面包括函数堆栈等 [GitHub Slides](https://github.com/florianl/talks/blob/master/2021-ber-tracingGoWithEbpf.pdf)；
 * 其他样例代码参见这里 [modify-arguments-on-the-fly](https://github.com/chenhengqi/bpf-examples/tree/main/modify-arguments-on-the-fly) 该样例代码不能稳定重现。
