@@ -1,6 +1,6 @@
 # Offensive BPF: Understanding and using bpf_probe_write_user
 
-编译依赖于 [libbp-bootstrap](https://github.com/libbpf/libbpf-bootstrap)，编译和运行的机器需要支持 CO-RE，即内核编译选项默认内置支持了CONFIG_DEBUG_INFO_BTF=y，可以通过参看编译的 config 文件或者 /sys/kernel/btf/vmlinux 文件确认。
+编译依赖于 [libbpf-bootstrap](https://github.com/libbpf/libbpf-bootstrap)，编译和运行的机器需要支持 CO-RE，即内核编译选项默认内置支持了CONFIG_DEBUG_INFO_BTF=y，可以通过参看编译的 config 文件或者 /sys/kernel/btf/vmlinux 文件确认。
 
 推荐 Ubuntu 21.10 已经内置支持了BTF，即 CO-RE 的底层依赖。
 
